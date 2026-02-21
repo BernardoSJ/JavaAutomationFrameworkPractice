@@ -11,7 +11,7 @@ import java.io.FileReader;
 
 public class JSONUtility {
 
-    public static String readJSON(Env env){
+    public static Environment readJSON(Env env){
         Gson gson = new Gson();
         File jsonFile = new File(System.getProperty("user.dir") + "\\config\\config.json");
         FileReader fileReader = null;
@@ -24,8 +24,8 @@ public class JSONUtility {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-        System.out.println(environment.getUrl());
-        return environment.getUrl();
+
+        return environment;
 
     }
 

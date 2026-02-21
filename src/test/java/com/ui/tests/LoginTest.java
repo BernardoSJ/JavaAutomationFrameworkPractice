@@ -38,7 +38,8 @@ public class LoginTest {
     @Test(description = "Verifies with the valid user is able to login into the application using Excel File",
             groups = {"e2e", "sanity"},
             dataProviderClass = com.ui.dataproviders.LoginDataProvider.class,
-            dataProvider = "LoginTestExcelDataProvider")
+            dataProvider = "LoginTestExcelDataProvider",
+            retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class)
     public void loginExcelTest(User user){
         String userName = homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
         assertEquals(userName, "Bernardo Salinas");
