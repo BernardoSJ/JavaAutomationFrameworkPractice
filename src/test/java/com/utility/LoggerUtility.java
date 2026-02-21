@@ -1,18 +1,21 @@
 package com.utility;
 
+import org.apache.commons.logging.Log;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class LoggerUtility {
 
-    private static Logger logger;
 
     private LoggerUtility(){
 
     }
 
-    public void getLogger(Class<?> clazz){
-        logger = LogManager.getLogger(clazz);
+    public static Logger getLogger(Class<?> clazz){
+
+        Logger logger = LogManager.getLogger(clazz);
+
+        return logger;
     }
 
     

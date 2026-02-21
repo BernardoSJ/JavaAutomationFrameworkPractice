@@ -5,9 +5,13 @@ import com.ui.pages.HomePage;
 import static org.testng.Assert.*;
 
 import com.ui.pojo.User;
+import com.utility.LoggerUtility;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners({com.ui.listeners.TestListener.class})
 public class LoginTest {
 
     HomePage homePage;

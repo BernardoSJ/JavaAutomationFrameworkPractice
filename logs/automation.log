@@ -1,0 +1,211 @@
+2026-02-21 14:09:00 [main] INFO com.ui.listeners.TestListener::onStart::49 Test Suite Started 
+2026-02-21 14:09:00 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::<init>::23 Launching Browser for EDGE 
+2026-02-21 14:09:00 [TestNG-test-UI Automation-3] INFO com.ui.pages.HomePage::<init>::23 Launching Browser for EDGE 
+2026-02-21 14:09:01 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::<init>::23 Launching Browser for EDGE 
+2026-02-21 14:09:02 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::goToWebsite::35 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-02-21 14:09:02 [TestNG-test-UI Automation-3] INFO com.ui.pages.HomePage::goToWebsite::35 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-02-21 14:09:02 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::goToWebsite::35 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-02-21 14:09:08 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::maximizeWindow::40 Maximizing the browser window 
+2026-02-21 14:09:08 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::25 loginExcelTest 
+2026-02-21 14:09:08 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies with the valid user is able to login into the application using Excel File 
+2026-02-21 14:09:08 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2026-02-21 14:09:08 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::goToLoginPage::26 Trying to perform click to go to Sign in Page 
+2026-02-21 14:09:08 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::clickOn::45 Finding Element with the locator By.xpath: //a[contains(text(),'Sign')] 
+2026-02-21 14:09:08 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::maximizeWindow::40 Maximizing the browser window 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-1] INFO com.ui.listeners.TestListener::onTestStart::25 loginCSVTest 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-1] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies with the valid user is able to login into the application using CSV File 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-1] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::goToLoginPage::26 Trying to perform click to go to Sign in Page 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::clickOn::45 Finding Element with the locator By.xpath: //a[contains(text(),'Sign')] 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-3] INFO com.ui.pages.HomePage::maximizeWindow::40 Maximizing the browser window 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-3] INFO com.ui.listeners.TestListener::onTestStart::25 loginTest 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-3] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies with the valid user is able to login into the application 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-3] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-3] INFO com.ui.pages.HomePage::goToLoginPage::26 Trying to perform click to go to Sign in Page 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-3] INFO com.ui.pages.HomePage::clickOn::45 Finding Element with the locator By.xpath: //a[contains(text(),'Sign')] 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-3] INFO com.ui.pages.HomePage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:09 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: email 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text example@gmail.com 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: passwd 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text password 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::clickOn::45 Finding Element with the locator By.id: SubmitLogin 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: email 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text example@gmail.com 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: passwd 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text password 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::clickOn::45 Finding Element with the locator By.id: SubmitLogin 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-3] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: email 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-2] INFO com.ui.pages.MyAccountPage::getVisibleText::63 Finding Element with the locator By.xpath: //a[@title='View my customer account']/span 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-3] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text example@gmail.com 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-2] WARN com.ui.listeners.TestListener::onTestSkipped::44 loginExcelTest SKIPPED 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::<init>::23 Launching Browser for EDGE 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-3] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: passwd 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-3] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text password 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-3] INFO com.ui.pages.LoginPage::clickOn::45 Finding Element with the locator By.id: SubmitLogin 
+2026-02-21 14:09:10 [TestNG-test-UI Automation-3] INFO com.ui.pages.LoginPage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:11 [TestNG-test-UI Automation-1] INFO com.ui.pages.MyAccountPage::getVisibleText::63 Finding Element with the locator By.xpath: //a[@title='View my customer account']/span 
+2026-02-21 14:09:11 [TestNG-test-UI Automation-1] ERROR com.ui.listeners.TestListener::onTestFailure::37 loginCSVTest FAILED 
+2026-02-21 14:09:11 [TestNG-test-UI Automation-1] ERROR com.ui.listeners.TestListener::onTestFailure::38 no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}
+  (Session info: MicrosoftEdge=145.0.3800.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [874f9d9768c944ead7f00135b3367b26, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.65, fedcm:accounts: true, goog:processID: 29504, ms:edgeOptions: {debuggerAddress: localhost:63174}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\salin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63174/devtoo..., se:cdpVersion: 145.0.3800.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 874f9d9768c944ead7f00135b3367b26 
+2026-02-21 14:09:11 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::<init>::23 Launching Browser for EDGE 
+2026-02-21 14:09:11 [TestNG-test-UI Automation-3] INFO com.ui.pages.MyAccountPage::getVisibleText::63 Finding Element with the locator By.xpath: //a[@title='View my customer account']/span 
+2026-02-21 14:09:11 [TestNG-test-UI Automation-3] ERROR com.ui.listeners.TestListener::onTestFailure::37 loginTest FAILED 
+2026-02-21 14:09:11 [TestNG-test-UI Automation-3] ERROR com.ui.listeners.TestListener::onTestFailure::38 no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}
+  (Session info: MicrosoftEdge=145.0.3800.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a1259797c1010f2bcc6d03550bf6c967, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.65, fedcm:accounts: true, goog:processID: 30480, ms:edgeOptions: {debuggerAddress: localhost:63175}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\salin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63175/devtoo..., se:cdpVersion: 145.0.3800.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a1259797c1010f2bcc6d03550bf6c967 
+2026-02-21 14:09:11 [TestNG-test-UI Automation-3] INFO com.ui.pages.HomePage::<init>::23 Launching Browser for EDGE 
+2026-02-21 14:09:11 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::goToWebsite::35 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-02-21 14:09:12 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::goToWebsite::35 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-02-21 14:09:12 [TestNG-test-UI Automation-3] INFO com.ui.pages.HomePage::goToWebsite::35 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-02-21 14:09:17 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::maximizeWindow::40 Maximizing the browser window 
+2026-02-21 14:09:17 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::25 loginExcelTest 
+2026-02-21 14:09:17 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies with the valid user is able to login into the application using Excel File 
+2026-02-21 14:09:17 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2026-02-21 14:09:17 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::goToLoginPage::26 Trying to perform click to go to Sign in Page 
+2026-02-21 14:09:17 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::clickOn::45 Finding Element with the locator By.xpath: //a[contains(text(),'Sign')] 
+2026-02-21 14:09:17 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: email 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text example@gmail.com 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: passwd 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text password 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::clickOn::45 Finding Element with the locator By.id: SubmitLogin 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::maximizeWindow::40 Maximizing the browser window 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-1] INFO com.ui.listeners.TestListener::onTestStart::25 loginCSVTest 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-1] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies with the valid user is able to login into the application using CSV File 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-1] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::goToLoginPage::26 Trying to perform click to go to Sign in Page 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::clickOn::45 Finding Element with the locator By.xpath: //a[contains(text(),'Sign')] 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-2] INFO com.ui.pages.MyAccountPage::getVisibleText::63 Finding Element with the locator By.xpath: //a[@title='View my customer account']/span 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-2] WARN com.ui.listeners.TestListener::onTestSkipped::44 loginExcelTest SKIPPED 
+2026-02-21 14:09:19 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::<init>::23 Launching Browser for EDGE 
+2026-02-21 14:09:20 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: email 
+2026-02-21 14:09:20 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text repano2553@hopesx.com 
+2026-02-21 14:09:20 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::goToWebsite::35 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-02-21 14:09:20 [TestNG-test-UI Automation-3] INFO com.ui.pages.HomePage::maximizeWindow::40 Maximizing the browser window 
+2026-02-21 14:09:20 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: passwd 
+2026-02-21 14:09:20 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text password 
+2026-02-21 14:09:20 [TestNG-test-UI Automation-3] INFO com.ui.listeners.TestListener::onTestStart::25 loginTest 
+2026-02-21 14:09:20 [TestNG-test-UI Automation-3] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies with the valid user is able to login into the application 
+2026-02-21 14:09:20 [TestNG-test-UI Automation-3] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2026-02-21 14:09:20 [TestNG-test-UI Automation-3] INFO com.ui.pages.HomePage::goToLoginPage::26 Trying to perform click to go to Sign in Page 
+2026-02-21 14:09:20 [TestNG-test-UI Automation-3] INFO com.ui.pages.HomePage::clickOn::45 Finding Element with the locator By.xpath: //a[contains(text(),'Sign')] 
+2026-02-21 14:09:20 [TestNG-test-UI Automation-3] INFO com.ui.pages.HomePage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:21 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::clickOn::45 Finding Element with the locator By.id: SubmitLogin 
+2026-02-21 14:09:21 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:22 [TestNG-test-UI Automation-3] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: email 
+2026-02-21 14:09:22 [TestNG-test-UI Automation-3] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text repano2553@hopesx.com 
+2026-02-21 14:09:22 [TestNG-test-UI Automation-1] INFO com.ui.pages.MyAccountPage::getVisibleText::63 Finding Element with the locator By.xpath: //a[@title='View my customer account']/span 
+2026-02-21 14:09:22 [TestNG-test-UI Automation-1] INFO com.ui.pages.MyAccountPage::getVisibleText::65 Element Found and now returning the visible text Bernardo Salinas 
+2026-02-21 14:09:22 [TestNG-test-UI Automation-1] INFO com.ui.listeners.TestListener::onTestSuccess::32 loginCSVTest PASSED 
+2026-02-21 14:09:22 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::<init>::23 Launching Browser for EDGE 
+2026-02-21 14:09:22 [TestNG-test-UI Automation-3] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: passwd 
+2026-02-21 14:09:22 [TestNG-test-UI Automation-3] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text password 
+2026-02-21 14:09:22 [TestNG-test-UI Automation-3] INFO com.ui.pages.LoginPage::clickOn::45 Finding Element with the locator By.id: SubmitLogin 
+2026-02-21 14:09:22 [TestNG-test-UI Automation-3] INFO com.ui.pages.LoginPage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:23 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::goToWebsite::35 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-02-21 14:09:23 [TestNG-test-UI Automation-3] INFO com.ui.pages.MyAccountPage::getVisibleText::63 Finding Element with the locator By.xpath: //a[@title='View my customer account']/span 
+2026-02-21 14:09:23 [TestNG-test-UI Automation-3] INFO com.ui.pages.MyAccountPage::getVisibleText::65 Element Found and now returning the visible text Bernardo Salinas 
+2026-02-21 14:09:23 [TestNG-test-UI Automation-3] INFO com.ui.listeners.TestListener::onTestSuccess::32 loginTest PASSED 
+2026-02-21 14:09:27 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::maximizeWindow::40 Maximizing the browser window 
+2026-02-21 14:09:27 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::25 loginExcelTest 
+2026-02-21 14:09:27 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies with the valid user is able to login into the application using Excel File 
+2026-02-21 14:09:27 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2026-02-21 14:09:27 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::goToLoginPage::26 Trying to perform click to go to Sign in Page 
+2026-02-21 14:09:27 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::clickOn::45 Finding Element with the locator By.xpath: //a[contains(text(),'Sign')] 
+2026-02-21 14:09:27 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:28 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: email 
+2026-02-21 14:09:28 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text example@gmail.com 
+2026-02-21 14:09:28 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: passwd 
+2026-02-21 14:09:28 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text password 
+2026-02-21 14:09:28 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::clickOn::45 Finding Element with the locator By.id: SubmitLogin 
+2026-02-21 14:09:28 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:29 [TestNG-test-UI Automation-2] INFO com.ui.pages.MyAccountPage::getVisibleText::63 Finding Element with the locator By.xpath: //a[@title='View my customer account']/span 
+2026-02-21 14:09:29 [TestNG-test-UI Automation-2] WARN com.ui.listeners.TestListener::onTestSkipped::44 loginExcelTest SKIPPED 
+2026-02-21 14:09:29 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::<init>::23 Launching Browser for EDGE 
+2026-02-21 14:09:29 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::maximizeWindow::40 Maximizing the browser window 
+2026-02-21 14:09:29 [TestNG-test-UI Automation-1] INFO com.ui.listeners.TestListener::onTestStart::25 loginCSVTest 
+2026-02-21 14:09:29 [TestNG-test-UI Automation-1] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies with the valid user is able to login into the application using CSV File 
+2026-02-21 14:09:29 [TestNG-test-UI Automation-1] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2026-02-21 14:09:29 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::goToLoginPage::26 Trying to perform click to go to Sign in Page 
+2026-02-21 14:09:29 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::clickOn::45 Finding Element with the locator By.xpath: //a[contains(text(),'Sign')] 
+2026-02-21 14:09:29 [TestNG-test-UI Automation-1] INFO com.ui.pages.HomePage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:30 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::goToWebsite::35 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-02-21 14:09:30 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: email 
+2026-02-21 14:09:30 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text repanoExample2553@hopesx.com 
+2026-02-21 14:09:30 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: passwd 
+2026-02-21 14:09:30 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text password 
+2026-02-21 14:09:31 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::clickOn::45 Finding Element with the locator By.id: SubmitLogin 
+2026-02-21 14:09:31 [TestNG-test-UI Automation-1] INFO com.ui.pages.LoginPage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:31 [TestNG-test-UI Automation-1] INFO com.ui.pages.MyAccountPage::getVisibleText::63 Finding Element with the locator By.xpath: //a[@title='View my customer account']/span 
+2026-02-21 14:09:31 [TestNG-test-UI Automation-1] ERROR com.ui.listeners.TestListener::onTestFailure::37 loginCSVTest FAILED 
+2026-02-21 14:09:31 [TestNG-test-UI Automation-1] ERROR com.ui.listeners.TestListener::onTestFailure::38 no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}
+  (Session info: MicrosoftEdge=145.0.3800.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [c4f9b981a788a7f4fdb25291879f99c7, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.65, fedcm:accounts: true, goog:processID: 30120, ms:edgeOptions: {debuggerAddress: localhost:52548}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\salin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52548/devtoo..., se:cdpVersion: 145.0.3800.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c4f9b981a788a7f4fdb25291879f99c7 
+2026-02-21 14:09:36 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::maximizeWindow::40 Maximizing the browser window 
+2026-02-21 14:09:36 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::25 loginExcelTest 
+2026-02-21 14:09:36 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies with the valid user is able to login into the application using Excel File 
+2026-02-21 14:09:36 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2026-02-21 14:09:36 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::goToLoginPage::26 Trying to perform click to go to Sign in Page 
+2026-02-21 14:09:36 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::clickOn::45 Finding Element with the locator By.xpath: //a[contains(text(),'Sign')] 
+2026-02-21 14:09:36 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:38 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: email 
+2026-02-21 14:09:38 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text example@gmail.com 
+2026-02-21 14:09:38 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: passwd 
+2026-02-21 14:09:38 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text password 
+2026-02-21 14:09:38 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::clickOn::45 Finding Element with the locator By.id: SubmitLogin 
+2026-02-21 14:09:38 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:38 [TestNG-test-UI Automation-2] INFO com.ui.pages.MyAccountPage::getVisibleText::63 Finding Element with the locator By.xpath: //a[@title='View my customer account']/span 
+2026-02-21 14:09:38 [TestNG-test-UI Automation-2] ERROR com.ui.listeners.TestListener::onTestFailure::37 loginExcelTest FAILED 
+2026-02-21 14:09:38 [TestNG-test-UI Automation-2] ERROR com.ui.listeners.TestListener::onTestFailure::38 no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title='View my customer account']/span"}
+  (Session info: MicrosoftEdge=145.0.3800.65)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: '4.40.0', revision: 'b3333f1'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [8cc987fe1bf955be9c12aa5ecb49040b, findElement {value=//a[@title='View my customer account']/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 145.0.3800.65, fedcm:accounts: true, goog:processID: 22204, ms:edgeOptions: {debuggerAddress: localhost:52571}, msedge: {msedgedriverVersion: 145.0.3800.70 (57ed5ba8de27..., userDataDir: C:\Users\salin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52571/devtoo..., se:cdpVersion: 145.0.3800.65, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8cc987fe1bf955be9c12aa5ecb49040b 
+2026-02-21 14:09:38 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::<init>::23 Launching Browser for EDGE 
+2026-02-21 14:09:39 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::goToWebsite::35 Visiting the website https://automationpractice.techwithjatin.com/ 
+2026-02-21 14:09:46 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::maximizeWindow::40 Maximizing the browser window 
+2026-02-21 14:09:46 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::25 loginExcelTest 
+2026-02-21 14:09:46 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::26 Verifies with the valid user is able to login into the application using Excel File 
+2026-02-21 14:09:46 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestStart::27 [e2e, sanity] 
+2026-02-21 14:09:46 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::goToLoginPage::26 Trying to perform click to go to Sign in Page 
+2026-02-21 14:09:46 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::clickOn::45 Finding Element with the locator By.xpath: //a[contains(text(),'Sign')] 
+2026-02-21 14:09:46 [TestNG-test-UI Automation-2] INFO com.ui.pages.HomePage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:47 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: email 
+2026-02-21 14:09:47 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text repano2553@hopesx.com 
+2026-02-21 14:09:47 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::52 Finding Element with the locator By.id: passwd 
+2026-02-21 14:09:47 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::enterText::54 Element Found and now Enter text password 
+2026-02-21 14:09:47 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::clickOn::45 Finding Element with the locator By.id: SubmitLogin 
+2026-02-21 14:09:47 [TestNG-test-UI Automation-2] INFO com.ui.pages.LoginPage::clickOn::47 Element Found and now performing Click 
+2026-02-21 14:09:48 [TestNG-test-UI Automation-2] INFO com.ui.pages.MyAccountPage::getVisibleText::63 Finding Element with the locator By.xpath: //a[@title='View my customer account']/span 
+2026-02-21 14:09:48 [TestNG-test-UI Automation-2] INFO com.ui.pages.MyAccountPage::getVisibleText::65 Element Found and now returning the visible text Bernardo Salinas 
+2026-02-21 14:09:48 [TestNG-test-UI Automation-2] INFO com.ui.listeners.TestListener::onTestSuccess::32 loginExcelTest PASSED 
+2026-02-21 14:09:48 [main] INFO com.ui.listeners.TestListener::onFinish::54 Test Suite Completed 
