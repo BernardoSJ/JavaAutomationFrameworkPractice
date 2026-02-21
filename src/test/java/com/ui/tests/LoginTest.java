@@ -1,25 +1,14 @@
 package com.ui.tests;
 
-import static com.constants.Browser.*;
-import com.ui.pages.HomePage;
+
 import static org.testng.Assert.*;
 
 import com.ui.pojo.User;
-import com.utility.LoggerUtility;
-import org.apache.logging.log4j.Logger;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners({com.ui.listeners.TestListener.class})
-public class LoginTest {
-
-    HomePage homePage;
-
-    @BeforeMethod(description = "Load the Homepage of the website")
-    public void setup(){
-        homePage = new HomePage(EDGE);
-    }
+public class LoginTest extends TestBase {
 
     @Test(description = "Verifies with the valid user is able to login into the application",
             groups = {"e2e", "sanity"},
