@@ -35,7 +35,7 @@ public class LoginTest extends TestBase {
             retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class)
     public void loginExcelTest(User user){
         String userName = homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
-        assertEquals(userName, "Bernardo Salinas");
+        assertEquals(userName, "Bernardo SalinasXD");
     }
 
 }
