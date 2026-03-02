@@ -1,12 +1,13 @@
 name: Test Automation Workflow
 
 on:
-  schedule:
-    - cron: 0 6 * * *
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+  workflow_call:
+  # schedule:
+  #  - cron: 0 6 * * *
+  #push:
+  #  branches: [ "main" ]
+  #pull_request:
+  #  branches: [ "main" ]
 
 jobs:
   build:
