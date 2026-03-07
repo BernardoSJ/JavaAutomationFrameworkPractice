@@ -1,41 +1,27 @@
 package com.ui.tests;
 
 
-import static org.testng.Assert.*;
-
-import com.ui.pojo.User;
+import com.utility.LoggerUtility;
+import org.apache.logging.log4j.Logger;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import static org.testng.Assert.assertEquals;
+
 @Listeners({com.ui.listeners.TestListener.class})
-public class LoginTest extends TestBase {
+public class InvalidCredentialsLoginTest extends TestBase {
 
-    @Test(description = "Verifies with the valid user is able to login into the application",
-            groups = {"e2e", "sanity"},
-            dataProviderClass = com.ui.dataproviders.LoginDataProvider.class,
-            dataProvider = "LoginTestDataProvider")
-    public void loginTest(User user){
-        String userName = homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
-        assertEquals(userName, "Bernardo Salinas");
+    Logger logger = LoggerUtility.getLogger(this.getClass());
+    private static final String INVALID_EMAIL_ADDRESS = "fake@email.com";
+    private static final String INVALID_PASSWORD = "password";
+
+    @Test(description = "Verify if the proper error message is shown for the user when they enter invalid credentials",
+            groups = {"e2e", "sanity"})
+    public void loginTest(){
+        String errorMessage = homePage.goToLoginPage().doLoginWithInvalidCredentials(INVALID_EMAIL_ADDRESS, INVALID_PASSWORD).getErrorMessage();
+        assertEquals(errorMessage, "Authentication failed.");
     }
 
-    @Test(description = "Verifies with the valid user is able to login into the application using CSV File",
-            groups = {"e2e", "sanity"},
-            dataProviderClass = com.ui.dataproviders.LoginDataProvider.class,
-            dataProvider = "LoginTestCSVDataProvider")
-    public void loginCSVTest(User user){
-        String userName = homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
-        assertEquals(userName, "Bernardo Salinas");
-    }
 
-    @Test(description = "Verifies with the valid user is able to login into the application using Excel File",
-            groups = {"e2e", "sanity"},
-            dataProviderClass = com.ui.dataproviders.LoginDataProvider.class,
-            dataProvider = "LoginTestExcelDataProvider",
-            retryAnalyzer = com.ui.listeners.MyRetryAnalyzer.class)
-    public void loginExcelTest(User user){
-        String userName = homePage.goToLoginPage().doLoginWith(user.getEmailAddress(), user.getPassword()).getUserName();
-        assertEquals(userName, "Bernardo SalinasXD");
-    }
 
 }

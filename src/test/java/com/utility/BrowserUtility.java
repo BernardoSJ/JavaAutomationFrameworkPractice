@@ -10,30 +10,41 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.time.Duration;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 
 public abstract class BrowserUtility {
 
     private static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
     Logger logger = LoggerUtility.getLogger(this.getClass());
+    private WebDriverWait wait;
 
     public BrowserUtility(WebDriver driver){
         this.driver.set(driver);
+        wait = new WebDriverWait(driver, Duration.ofSeconds(30L));
     }
 
     public BrowserUtility(Browser browserName) {
         logger.info("Launching Browser for " + browserName);
         if(browserName == Browser.CHROME){
             driver.set(new ChromeDriver());
+            wait = new WebDriverWait(driver.get(), Duration.ofSeconds(30L));
         }else if(browserName == Browser.EDGE){
             driver.set(new EdgeDriver());
+            wait = new WebDriverWait(driver.get(), Duration.ofSeconds(30L));
         }else if(browserName == Browser.FIREFOX){
             driver.set(new FirefoxDriver());
+            wait = new WebDriverWait(driver.get(), Duration.ofSeconds(30L));
         }
     }
 
@@ -45,8 +56,10 @@ public abstract class BrowserUtility {
                 options.addArguments("--headless=old");
                 options.addArguments("--window-size=1920,1080");
                 driver.set(new ChromeDriver(options));
+                wait = new WebDriverWait(driver.get(), Duration.ofSeconds(30L));
             }else{
                 driver.set(new ChromeDriver());
+                wait = new WebDriverWait(driver.get(), Duration.ofSeconds(30L));
             }
 
         }else if(browserName == Browser.EDGE){
@@ -55,8 +68,10 @@ public abstract class BrowserUtility {
                 options.addArguments("--headless=old");
                 options.addArguments("--window-size=1920,1080");
                 driver.set(new EdgeDriver(options));
+                wait = new WebDriverWait(driver.get(), Duration.ofSeconds(30L));
             }else{
                 driver.set(new EdgeDriver());
+                wait = new WebDriverWait(driver.get(), Duration.ofSeconds(30L));
             }
         }else if(browserName == Browser.FIREFOX){
             if(isHeadless){
@@ -64,8 +79,10 @@ public abstract class BrowserUtility {
                 options.addArguments("--headless=old");
                 options.addArguments("--window-size=1920,1080");
                 driver.set(new FirefoxDriver(options));
+                wait = new WebDriverWait(driver.get(), Duration.ofSeconds(30L));
             }else{
                 driver.set(new FirefoxDriver());
+                wait = new WebDriverWait(driver.get(), Duration.ofSeconds(30L));
             }
 
         }
@@ -83,16 +100,39 @@ public abstract class BrowserUtility {
 
     public void clickOn(By locator){
         logger.info("Finding Element with the locator " + locator);
-        WebElement element = driver.get().findElement(locator);
+        //WebElement element = driver.get().findElement(locator);
+        WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
         logger.info("Element Found and now performing Click");
         element.click();
     }
 
+    public void clickOnCheckBox(By locator){
+        logger.info("Finding Element with the locator " + locator);
+        //WebElement element = driver.get().findElement(locator);
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        logger.info("Element Found and now performing Click");
+        element.click();
+    }
+
+
+    public void clickOn(WebElement element){
+        logger.info("Element Found and now performing Click");
+        element.click();
+    }
+
+
     public void enterText(By locator, String textToEnter){
         logger.info("Finding Element with the locator " + locator);
-        WebElement element = driver.get().findElement(locator);
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
         logger.info("Element Found and now Enter text "+ textToEnter);
         element.sendKeys(textToEnter);
+    }
+
+    public void enterSpecialKey(By locator, Keys keysToEnter){
+        logger.info("Finding Element with the locator " + locator);
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
+        logger.info("Element Found and now enter text "+ keysToEnter);
+        element.sendKeys(keysToEnter);
     }
 
     public WebDriver getDriver() {
@@ -104,6 +144,35 @@ public abstract class BrowserUtility {
         WebElement element = driver.get().findElement(locator);
         logger.info("Element Found and now returning the visible text " + element.getText());
         return element.getText();
+    }
+
+    public String getVisibleText(WebElement element) {
+
+        logger.info("Returning the visible Text " + element.getText());
+        return element.getText();
+    }
+
+    public List<String> getAllVisibleTexts(By locator) {
+        logger.info("Finding All Elements with the locator " + locator);
+        List<WebElement> elementList = driver.get().findElements(locator);
+        logger.info("Elements Found and now printing the List of Elements");
+
+        List<String> visibleTextList = new ArrayList<>();
+
+        for(WebElement element:elementList){
+            visibleTextList.add(getVisibleText(element).toLowerCase());
+        }
+
+        return visibleTextList;
+    }
+
+    public List<WebElement> getAllElements(By locator) {
+        logger.info("Finding All Elements with the locator " + locator);
+        List<WebElement> elementList = driver.get().findElements(locator);
+        logger.info("Elements Found and now printing the List of Elements");
+
+
+        return elementList;
     }
 
     public String takeScreenShot(String name){
@@ -120,6 +189,21 @@ public abstract class BrowserUtility {
             throw new RuntimeException(e);
         }
         return path;
+    }
+
+    public void selectFromDropdown(By dropDownLocator, String optionToSelect){
+        logger.info("Finding Element with the locator " + dropDownLocator);
+        WebElement element = driver.get().findElement(dropDownLocator);
+        Select select = new Select(element);
+        logger.info("Selecting the option " + optionToSelect);
+        select.selectByValue(optionToSelect);
+    }
+
+    public void clearText(By textBoxLocator){
+        logger.info("Finding Element with the locator " + textBoxLocator);
+        WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(textBoxLocator));
+        logger.info("Element Found and now clearing the text box field");
+        element.clear();
     }
 
 }

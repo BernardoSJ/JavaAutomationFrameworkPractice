@@ -11,7 +11,6 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-import static com.constants.Browser.EDGE;
 
 public class TestBase {
 
@@ -39,7 +38,7 @@ public class TestBase {
         return homePage;
     }
 
-    @AfterMethod(description = "Tear Down the browser")
+   @AfterMethod(description = "Tear Down the browser")
     public void tearDown(){
         if(isLambdaTest){
             LambdaTestUtility.quitSession();
